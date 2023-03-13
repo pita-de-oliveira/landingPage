@@ -4,54 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <p id="logo">Header Logo</p>
-        <nav>
-            <ul>
-                <li>Header link one</li>
-                <li>Header link two</li>
-                <li>Header link three</li>
-            </ul>
-        </nav>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under main title. It's smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-
-        <figure>
-            <p>This is a placeholder for an image</p>
-        </figure>
+    <header id="header-background">
+        <div id="header-width">
+            <header id="top-bar">
+                <p id="logo">Header Logo</p>
+                <nav id="nav-menu">
+                    <ul id="nav-list">
+                        <li class="nav-lis-item">Header link one</li>
+                        <li class="nav-lis-item">Header link two</li>
+                        <li class="nav-lis-item">Header link three</li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main id="header-content">
+                <div>
+                    <h1 id="header-1">This website is awesome</h1>
+                    <p id="paragraph-header-1">This website has some subtext that goes here under main title. It's smaller font and the color is lower contrast.</p>
+                    <button id="button-header-1">Sign up</button>
+                </div>
+                
+                <figure>
+                    <p>This is a placeholder for an image</p>
+                </figure>
+            </main>
+        </div>
     </header>
 
-    <main>
-        <h2>Some random information</h2>
-        <figure></figure>
-        <p>This is some subtext under an illustration or image</p>
-        
-        <figure></figure>
-        <p>This is some subtext under an illustration or image</p>
-        
-        <figure></figure>
-        <p>This is some subtext under an illustration or image</p>
-        
-        <figure></figure>
-        <p>This is some subtext under an illustration or image</p>
+    <main id="main-background">
+        <div id="main-width">
+            <h2>Some random information</h2>
+            
+            <div id="main-figures">
+                <div class="main-figure-container">
+                    <div class="main-figure-item"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                
+                <div class="main-figure-container">
+                    <div class="main-figure-item"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                
+                <div class="main-figure-container">
+                    <div class="main-figure-item"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                
+                <div class="main-figure-container">
+                    <div class="main-figure-item"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-        <p>This an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will read it. Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+    <main id="main-quote-background">
+        <div id="main-quote-width">
+            <p>This an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will read it. Who knows? All I know is that it looks nice.</p>
+            <p>-Thor, God of Thunder</p>
+        </div>
+    </main>
+
+    <main id="call-to-action">
+        <p>
+            <span>Call to actions! It's time!</span><br>
+            Sign up for our product by clicking that button right over there!
+        </p>
+        
+        <button>Sign up</button>
     </main>
 
     <footer>
-        <div>
-            <p>
-                <span>Call to actions! It's time!</span><br>
-                Sign up for our product by clicking that button right over there!
-            </p>
-        </div>
-
-        <button></button>
+        <p>Copyright © The Odin Project 2021</p>
     </footer>
     
 </body>
